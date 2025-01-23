@@ -1,0 +1,33 @@
+/* Container for the marquee */
+.marquee-containerm {
+    width: 100%; /* Full width */
+    height: 365px; /* Set height for the marquee viewport */
+    overflow: hidden; /* Hide content that moves out of view */
+    position: relative;
+  }
+  
+  /* Content wrapper for the marquee */
+  .marquee-contentm {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between images */
+    animation: scroll-vertical 80s linear infinite; /* Continuous vertical animation */
+    position: relative;
+  }
+  
+  /* Images inside the marquee */
+  .marquee-imagem {
+    width: 90px;
+    height: 90px;
+  }
+  
+  /* Keyframes for vertical scrolling */
+  @keyframes scroll-vertical {
+    0% {
+      transform: translateY(0); /* Start from below the viewport */
+    }
+    100% {
+      transform: translateY(-100%); /* Move above the viewport */
+    }
+  }
+  

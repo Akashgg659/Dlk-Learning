@@ -1,0 +1,194 @@
+
+/*...........Navbar
+
+<Navbar expand="lg Apptheme  p-0 " 
+
+    >
+      <Navbar.Brand href="/" className="font-weight-bold mright py-0 pps  ">
+        <div className=''>
+      <a
+        href="/"
+        className="navbar-brand font-weight-bold   width1 d-flex justify-content-center p-2"
+        style={{ fontSize: 50 }}
+      >
+        <i className="flaticon-043-teddy-bear" />
+
+        <img className="img-fluid " src='/images/logo2.jpg' alt="not" width={90}   />
+        <div className='d-flex padingdown '>
+           <h2 className=' text-center times-roman-text Apptheme '>DLK Learning</h2></div>
+       </a></div>
+
+      </Navbar.Brand>
+
+      {/* Toggle button for mobile view */}
+      <Navbar.Toggle aria-controls="navbarCollapse">
+        <FaBars />
+      </Navbar.Toggle>
+
+      {/* Collapsible menu */}
+      <Navbar.Collapse id="navbarCollapse" className="justify-content-between ">
+        <Nav className="mx-auto font-weight-bold">
+          <Nav.Link href="index.html" className="times-roman-text ">
+           <h5 className='Apptheme m-3 times-roman-text '>Tutorial</h5> 
+          </Nav.Link>
+          <Nav.Link href="about.html" className="nav-item nav-link times-roman-text ">
+          <h5 className='Apptheme m-3 times-roman-text'>Exercises</h5> 
+          </Nav.Link>
+          <Nav.Link href="class.html" className="nav-item nav-link times-roman-text">
+          <h5 className='Apptheme m-3 times-roman-text'>Certification</h5> 
+          </Nav.Link>
+        </Nav>
+
+        {/* Search bar 
+        <Form inline className="">
+          <input
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            className="m-3 inputradius radius2 p-2 "
+            style={{
+              paddingLeft: '30px', // Space for the icon
+              backgroundColor: '#f8f9fa',
+              border: '1px solid #ced4da',
+            }}🔍
+          />
+        </Form>*/}
+
+    <form class="d-flex align-items-center ">
+    <div class="position-relative w-100">
+      <input
+        type="search"
+        placeholder="Search..."
+        aria-label="Search"
+        class="form-control rounded-pill ps-4 pe-4"
+        
+       
+      />
+      <div> <span 
+        class="position-absolute top-50 end-0 translate-middle-y ps-3 p-2 text-muted"
+        >
+       
+         <img className="img-fluid " src='/images/3.gif' alt="not" width={40}   />
+      </span>
+      
+      
+      </div>
+     
+    </div>
+  </form>
+ 
+
+        {/* Dark Mode Toggle Button */}
+        <div className="p-3">
+         
+          <input type='checkbox' className=''
+          onChange={toggleTheme}
+          checked={isDarkMode}
+          style={{ display: 'none' }} // Hide the checkbox
+          
+          />
+
+       <div
+        onClick={toggleTheme}
+        className="d-flex align-items-center justify-content-center rounded-circle p-2"
+        style={{
+          width: '50px',
+          height: '50px',
+          backgroundColor: isDarkMode ? '#343a40' : '#f8f9fa',
+          cursor: 'pointer',
+          transition: 'background-color 0.3s ease',
+        }}
+      >
+        {isDarkMode ? (
+          <FaMoon style={{ color: '#f8f9fa' }} />
+        ) : (
+          <FaSun style={{ color: '#343a40' }} />
+        )}
+      </div>
+
+
+      
+         
+         
+       </div>
+         
+     <div className='d-flex pdown Applink '>
+
+     
+
+      <a href="https://www.facebook.com/DlkTechnologies/" className="nav-item nav-link ">
+        <h4 className='p-2'><i class="fab fa-facebook "></i></h4>
+          </a>
+
+
+     <a href='https://www.instagram.com/dlk_tec' className='nav-item nav-link'>
+   <h4 className='p-2'> <i class="fab fa-instagram"></i> </h4>
+    </a>
+
+    <a href='https://www.linkedin.com/company/dlktechnologies/' className='nav-item nav-link'>
+   <h4 className='p-2'> <i class="fab fa-linkedin"></i> </h4>
+    </a>
+
+    <a href='https://www.youtube.com/@dlktechnologiesindiaprivat3300/featured' className='nav-item nav-link'>
+   <h4 className='p-2'><i class="fab fa-youtube"></i> </h4>
+    </a>
+    {/* <a  className='nav-item nav-link'>
+  
+   <h4 className='p-2' onClick={handleGoogleSignIn}
+   ><i class="fab fa-google" ></i> </h4>
+   
+   
+    </a>*/}
+
+     <div
+        id="google-sign-in-btn" className=' '
+        style={{ width: "45px"  }} // Adjust the width and height
+      ></div>
+
+{/*
+    <button
+        className="btn btn-outline-primary d-flex align-items-center justify-content-center"
+        onClick={triggerGoogleSignIn}
+        style={{
+        
+          margin: "0 auto",
+          padding: "10px 20px",
+        
+        }}
+      >
+        <i className="fab fa-google me-2" style={{ fontSize: "20px" }}></i>
+        
+      </button> */}
+
+
+  
+
+    </div>
+
+
+      
+
+ 
+      </Navbar.Collapse>
+
+         
+
+      <div className='d-flex justify-content-end '>
+<a href="" className=" px-3 mleft me-2 ms-2">
+<img className="img-fluid " src='/images/s11.gif' alt="not" width={100}   />
+        </a>
+       
+</div>
+
+    </Navbar>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+.bg-newyear{
+    background-image: url('https://img.freepik.com/free-photo/decorative-christmas-composition-with-copy-space_23-2149155883.jpg?t=st=1735208782~exp=1735212382~hmac=123bfb0137236b6c12af731d548d74000c066f1de77a3fc1f71c0f39a0706861&w=900');
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+}
+
+.bg-christmas{
+    background-image: url('https://img.freepik.com/free-vector/mushrooms-moss-logs-cartoon-stump-toadstools-poisonous-shrooms-broken-tree_105738-1935.jpg?t=st=1735557492~exp=1735561092~hmac=b1db570408ddb212109452e08f19b7bdd2815e522dd76c10bdab69373d805425&w=1380');
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+}
+
+
+.bg-diwali{
+    background-image: url('https://img.freepik.com/free-psd/macaroon-isolated-transparent-background_191095-35017.jpg?t=st=1735557658~exp=1735561258~hmac=7fe400d8608fca2e41b8fdcf7061cb0a033e9574d367fb0ebac1b8c62f918abb&w=740');
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+}

@@ -1,0 +1,169 @@
+      <div className="background-animation d-flex justify-content-center align-items-start  ">
+      <div className="content  text-center rounded  moving-box ">
+
+
+
+
+      <div
+            className="card  p-4  m-3 vh-50  "
+            style={{ borderRadius: "15px" }}
+          >
+            <div className="card-body">
+             
+
+              <h4 className="card-title text-center mb-4"> { isSignUp ? 'Sign Up' : 'Login'}</h4>
+        <h5 className="card-title text-center mb-4">{isSignUp ? 'Already have an account?' :  ``}
+           <b id='logino' onClick={toggleForm}> {isSignUp ? 'Login' :  ''}</b>
+         </h5>
+
+
+              <div className="d-flex justify-content-center mt-4 mb-1">
+      <div className=" text-center p-1 letsi  " >
+        <div className="d-flex justify-content-between align-items-center">
+         
+      <div
+        id="google-sign-in-btn2" className='p-2  '
+        // Adjust the width and height
+       
+      > <div className="g_id_signin"   data-size="large" data-text="signup"> <span></span></div></div>
+      
+       { /*  <img
+        src="/images/google.gif" // Replace with the path to your logo image
+        alt="Logo"
+        width={40}
+        className='img-fluid p-2'
+      /> */}
+
+
+        </div>
+      </div>
+    </div>
+
+              <div className='text-center mb-1 mt-2 '>
+          <h5><b>or</b></h5>
+          <hr></hr>
+        </div>
+
+              {/* Form */}
+              {isSignUp ?(
+          <form onSubmit={handleFormSubmit} className="p-2 ">
+          {/* Name Input */}
+          <div className="">
+            <label htmlFor="name" className="form-label"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          {/* Email Input */}
+          <div className="mb-1">
+            <label htmlFor="email" className="form-label"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          {/* Password Input */}
+          <div className="mb-3">
+            <label htmlFor="password" className="form-label"></label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              className="form-control"
+              placeholder="Create a password"
+              required
+            />
+          </div>
+
+          {/* Submit Button */}
+          <div className="d-flex justify-content-center mb-2">
+            <button type="submit" className="btn btn-primary w-100">
+            {isSignUp ? 'Sign Up' : 'Login'}  {/* Button text changes based on form */}
+            </button>
+          </div>
+        </form>) :
+
+         ( <div>
+
+        <form onSubmit={handleFormSubmit} className="p-3" >
+          {/* Name Input */}
+         
+          {/* Email Input */}
+          <div className="mb-1">
+            <label htmlFor="email" className="form-label"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          {/* Password Input */}
+          <div className="mb-3">
+            <label htmlFor="password" className="form-label"></label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              className="form-control"
+              placeholder="Enter a password"
+              required
+            />
+          </div>
+
+          {/* Submit Button */}
+          <div className="d-flex justify-content-center mb-2">
+          <button type="submit" className="btn btn-primary w-100 m-2">
+           {`Forgot`}
+            </button>
+            <button type="submit" className="btn btn-primary w-100 m-2">
+            {isSignUp ? 'Sign Up' : 'Login'}  {/* Button text changes based on form */}
+            </button>
+           
+          </div>
+        </form>
+
+        <h5 className="card-title text-center mb-4">{isSignUp ? 'Already have an account?' :  `Don't have an account?`}
+           <b id='logino' onClick={toggleForm}> {isSignUp ? 'Login' :  'Sign Up'}</b>
+         </h5>
+
+
+          </div>) 
+        }
+
+        
+{isSignUp ?(<div className='text-center mb-4'>
+          <h6>By signing up you agree to our <a href='#'> Terms of Service</a> and <a href='#'>Privacy Policy</a></h6>
+        </div>): (<></>)}
+
+        {isSignUp ?(<div className='text-center d-flex justify-content-center'>
+     <h5><input type='checkbox' className=''></input> Email me with news and updates</h5>
+        </div>): (<></>)}
+
+            </div>
+          </div>
+
+
+       
+      </div>
+    </div>
+
+
+
+    <a href="https://front.codes/" class="logo" target="_blank">
+      <img src="https://assets.codepen.io/1462889/fcy.png" alt=""/>
+    </a>
