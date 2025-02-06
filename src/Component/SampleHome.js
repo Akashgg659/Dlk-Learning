@@ -1143,7 +1143,7 @@ rows
               <h1 className=' pb-5 ms-4  ps-3 '>Top Tutorials</h1>
               </div>
               {/** first row */}
-              <div className='d-flex justify-content-center rowmar' >
+              <div className='d-flex justify-content-center rowmar p-4' >
 
 
               <div class="row cardpadingforall  custom-gap d-flex justify-content-center">
@@ -1413,7 +1413,7 @@ rows
               </div>
 
                {/** second row*/}
-              <div className='d-flex justify-content-center  ' >
+              <div className='d-flex justify-content-center p-4 ' >
 
 
                 <div class="row cardpadingforall  custom-gap d-flex justify-content-center ">

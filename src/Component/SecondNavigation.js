@@ -264,7 +264,7 @@ const {setAuth} = useContext(SignupAuthContext)
     <Link to={"/"} className="navbar-brand   d-flex justify-content-center p-0 ">
     
 
-    {! mobileSearchActive &&<img className="img-fluid me-4 ms-5 " src='/images/h3.png ' alt="not" width={100}  height={30}  />}
+    {! mobileSearchActive &&<img className="img-fluid mt-2  " src='/images/h3.png ' alt="not" width={100}  height={30}  />}
    
 
        </Link>
@@ -285,7 +285,7 @@ const {setAuth} = useContext(SignupAuthContext)
   <MobileViewSearchBox/>
   </div>
 
-  {<div className='d-flex justify-content-center'>
+  { ! mobileSearchActive &&<div className='d-flex justify-content-center'>
 
   { <div className="pe-3 ps-3 d-lg-none d-xl-none d-sm-block d-md-block  ">
      

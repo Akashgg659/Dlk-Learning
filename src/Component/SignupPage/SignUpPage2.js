@@ -147,7 +147,8 @@ const SignUpPage2 = () => {
           <MobileViewSearchBox />
         </div>
 
-        {<div className='d-flex justify-content-center'>
+        {!mobileSearchActive &&
+          <div className='d-flex justify-content-center'>
 
           {<div className="pe-3 ps-3 d-lg-none d-xl-none d-sm-block d-md-block  ">
 
@@ -294,7 +295,7 @@ const SignUpPage2 = () => {
 
 
 
-      <div className="container-fluid d-flex flex-column align-items-center     ">
+      <div className="container-fluid d-flex flex-column align-items-center  Apptheme   ">
 
 
 
@@ -371,8 +372,8 @@ const SignUpPage2 = () => {
 
 
 
-        {/* Footer Section */}
-        <footer className="text-center  ">
+    
+        <footer className="text-center  Apptheme ">
           <p className="animate__animated animate__fadeInUp">
             DLK Learning is designed to maximize your learning experience. Tutorials, examples, and
             references are continuously updated for clarity and accuracy.
