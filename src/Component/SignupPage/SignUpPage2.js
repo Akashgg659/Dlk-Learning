@@ -296,11 +296,11 @@ const SignUpPage2 = () => {
 
       <div className="container-fluid d-flex flex-column align-items-center     ">
 
-        {/* Header Section */}
+
 
 
         {/* Main Content */}
-        <div className="row w-100 d-flex justify-content-center align-items-start  ">
+        <div className="row d-flex justify-content-center align-items-start  ">
           {/* Left Side: Sign-Up/Login Form */}
 
 
@@ -309,71 +309,7 @@ const SignUpPage2 = () => {
           <div className="col-lg-4 col-md-8 col-sm-10   ">
 
 
-            {/*<div class="section">
-              <div class="container">
-                <div class="row full-height justify-content-center">
-                  <div class="col-12 text-center align-self-center py-2">
-                    <div class="section  pt-sm-2 text-center   ">
-                      
-                      <input class="checkbox " type="checkbox" id="reg-log" name="reg-log" />
-
-                      <label for="reg-log"><span>Login</span></label>
-                      <div class="card-3d-wrap mx-auto  ">
-                        <div class="card-3d-wrapper ">
-                          <div class="card-front ">
-
-                            <div class="center-wrap ">
-                              <div class="section text-center ">
-                                <h4 class="mb-4 pb-3  ">Welcome Back</h4>
-                                <div class="form-group">
-                                  <input type="email" name="logemail" class="form-style bg-white " placeholder="Your Email" id="logemail" autocomplete="off" />
-                                  <i class="input-icon uil uil-at"></i>
-                                </div>
-                                <div class="form-group mt-2">
-                                  <input type="password" name="logpass" class="form-style bg-white" placeholder="Your Password" id="logpass" autocomplete="off" />
-                                  <i class="input-icon uil uil-lock-alt"></i>
-                                </div>
-
-
-                                <h4 class="btn1 mt-4">Login</h4>
-                                <p class="mb-0 mt-4 text-center"><a href="#0" class="link text-decoration-none">Forgot your password?</a></p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card-back ">
-                            <div class="center-wrap">
-                              <div class="section text-center">
-                                <h4 class="mb-4 pb-3">welcome</h4>
-
-
-
-
-
-
-
-                                <div class="form-group">
-                                  <input type="text" name="logname" class="form-style bg-white" placeholder="Your Full Name" id="logname" autocomplete="off" />
-                                  <i class="input-icon uil uil-user"></i>
-                                </div>
-                                <div class="form-group mt-2">
-                                  <input type="email" name="logemail" class="form-style bg-white" placeholder="Your Email" id="logemail" autocomplete="off" />
-                                  <i class="input-icon uil uil-at"></i>
-                                </div>
-                                <div class="form-group mt-2">
-                                  <input type="password" name="logpass" class="form-style bg-white" placeholder="Your Password" id="logpass" autocomplete="off" />
-                                  <i class="input-icon uil uil-lock-alt"></i>
-                                </div>
-                                <h4 class="btn1 mt-4  ">Sign Up</h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>*/}
+           
 
             <div className="p-3 mt-3 mb-3">
 

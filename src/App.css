@@ -521,9 +521,7 @@ mark,
   color: #6c757d;
 }
 
-.blockquote-footer::before {
-  content: "\2014\00A0";
-}
+
 
 .img-fluid {
   max-width: 100%;
@@ -4709,13 +4707,6 @@ input[type="button"].btn-block {
   padding-left: 0.5rem;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-  display: inline-block;
-  padding-right: 0.5rem;
-  color: #6c757d;
-  content: "/";
-}
-
 .breadcrumb-item + .breadcrumb-item:hover::before {
   text-decoration: underline;
 }
@@ -6212,13 +6203,6 @@ a.close.disabled {
   right: 0;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background: no-repeat 50% / 100% 100%;
-}
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
@@ -10148,7 +10132,7 @@ margin-right: 50px;
   }
 }
 
-* Initially, the element is positioned off-screen */
+/* Initially, the element is positioned off-screen */
 .slide-right {
   transform: translateX(-100%);
   transition: transform 0.5s ease-out;
