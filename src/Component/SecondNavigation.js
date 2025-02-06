@@ -264,7 +264,7 @@ const {setAuth} = useContext(SignupAuthContext)
     <Link to={"/"} className="navbar-brand   d-flex justify-content-center p-0 ">
     
 
-    {! mobileSearchActive &&<img className="img-fluid mt-2  " src='/images/h3.png ' alt="not" width={100}  height={30}  />}
+    {! mobileSearchActive &&<img className="img-fluid mt-2 ms-4 me-5  " src='/images/h3.png ' alt="not" width={100}  height={30}  />}
    
 
        </Link>
